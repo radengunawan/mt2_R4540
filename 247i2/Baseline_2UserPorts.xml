@@ -1,0 +1,11 @@
+<!DOCTYPE MT2_eOLT_GPON_TEST_SUITE>
+<TestSuite>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.4.2.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.11.3.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.2.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.7.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.8.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.9.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.19.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.21.js"/>
+</TestSuite>

@@ -1,0 +1,33 @@
+<!DOCTYPE MT2_eOLT_GPON_TEST_SUITE>
+<TestSuite>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.4.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.6.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.7.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.8.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.8.2.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.8.3.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.8.4.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i4/TC_6.8.5.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.9.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.9.2.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.9.3.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.1_w16.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.1_w32.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.1_w64.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.2.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.3.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.4.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.5.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.7.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.10.8.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.1.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.4.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.5.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.6.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.10.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.12.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.13.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.14.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.15.js"/>
+ <script status="Not run" comments="" filename="./scripts/247i2/TC_6.2.16.js"/>
+</TestSuite>

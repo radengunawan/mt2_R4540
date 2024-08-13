@@ -1,0 +1,19 @@
+<?xml version="1.0" ?> 
+<testcase>
+  <port name="downstream">
+<streams>
+      <stream name="Frame Set A" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;FF:FF:FF:FF:FF:FF&lt;/dstMac&gt;&lt;srcMac&gt;@MAC1@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;000&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2297&quot;&gt;&lt;tos name=&quot;anon_2298&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <stream name="Frame Set B" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;FF:FF:FF:FF:FF:FF&lt;/dstMac&gt;&lt;srcMac&gt;@MAC1@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;000&lt;/pri&gt;&lt;id&gt;@SVID2@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2297&quot;&gt;&lt;tos name=&quot;anon_2298&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+   <filters>
+    <filter name="Frame Set A - 1" port="upstream1" stream="all" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    <filter name="Frame Set A - 2" port="upstream2" stream="all" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" /> 
+    <filters>
+  </port>
+  
+  <port name="upstream1">
+  </port>
+  
+  <port name="upstream2">
+  </port>
+</testcase>

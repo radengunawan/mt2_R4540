@@ -1,0 +1,48 @@
+<?xml version="1.0" ?> 
+<testcase>
+  <port name="downstream">
+    <streams>
+       <stream name="Dummy"      length="1280" tid="-1" config=""/>
+       <stream name="Stream A"   length="1280" tid="1" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST2@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC3@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;100&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;22218&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.1&lt;/sourceAddr&gt;&lt;destAddr&gt;224.4.5.1&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_2794&quot;&gt;&lt;tos name=&quot;anon_2795&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Udp_1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;0&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" nb="16384" />
+       <stream name="Stream B"   length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST3@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC4@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;100&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;22224&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.2&lt;/sourceAddr&gt;&lt;destAddr&gt;224.4.5.2&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_3056&quot;&gt;&lt;tos name=&quot;anon_3057&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Udp_1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;0&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" nb="16384" />
+       <stream name="Stream C" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST4@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC5@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;100&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;22222&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.3&lt;/sourceAddr&gt;&lt;destAddr&gt;224.4.5.3&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_5963&quot;&gt;&lt;tos name=&quot;anon_5964&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Udp_1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;0&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" nb="16384" />
+      <stream name="Stream D" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST5@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC6@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;type&gt;88A8&lt;/type&gt;&lt;pri&gt;100&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;22220&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.4&lt;/sourceAddr&gt;&lt;destAddr&gt;224.4.5.4&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_6228&quot;&gt;&lt;tos name=&quot;anon_6229&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Udp_1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;0&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" nb="16384" />
+    </streams>
+    <filters>
+      <filter name="Stream A" port="upstream1" />
+      <filter name="Stream C" port="upstream1" />
+      <filter name="Stream B" port="upstream2" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac filterMinValue=&quot;@MAC_DST3@&quot; filterMaxValue=&quot;@MAC_DST3@&quot;&gt;@MASK_MAC_DST3@&lt;/dstMac&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </filters>
+  </port>
+  
+  <port name="upstream1">
+    <streams>
+      <stream name="IGMPJoin1" length="1280" tid="5" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC1@&lt;/srcMac&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;50887&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.5&lt;/sourceAddr&gt;&lt;destAddr&gt;224.0.0.22&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_9712&quot;&gt;&lt;tos name=&quot;anon_9713&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;options name=&quot;anon_9715&quot;&gt;&lt;IPv4HeaderOption name=&quot;IPv4HeaderOption_0&quot;&gt;&lt;rtrAlert name=&quot;anon_9717&quot;&gt;&lt;/rtrAlert&gt;&lt;/IPv4HeaderOption&gt;&lt;/options&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Igmpv3Report_1&quot; pdu=&quot;igmp:Igmpv3Report&quot;&gt;&lt;numGrpRecords&gt;1&lt;/numGrpRecords&gt;&lt;grpRecords name=&quot;anon_9719&quot;&gt;&lt;GroupRecord name=&quot;GroupRecord_0&quot;&gt;&lt;recordType&gt;5&lt;/recordType&gt;&lt;numSource&gt;1&lt;/numSource&gt;&lt;mcastAddr&gt;224.4.5.1&lt;/mcastAddr&gt;&lt;addrList name=&quot;anon_9721&quot;&gt;&lt;Ipv4Addr name=&quot;Ipv4Addr_0&quot;&gt;&lt;value&gt;128.0.0.1&lt;/value&gt;&lt;/Ipv4Addr&gt;&lt;/addrList&gt;&lt;/GroupRecord&gt;&lt;/grpRecords&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <stream name="IGMPJoin3" length="1280"  config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC1@&lt;/srcMac&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;50887&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.5&lt;/sourceAddr&gt;&lt;destAddr&gt;224.0.0.22&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_9712&quot;&gt;&lt;tos name=&quot;anon_9713&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;options name=&quot;anon_9715&quot;&gt;&lt;IPv4HeaderOption name=&quot;IPv4HeaderOption_0&quot;&gt;&lt;rtrAlert name=&quot;anon_9717&quot;&gt;&lt;/rtrAlert&gt;&lt;/IPv4HeaderOption&gt;&lt;/options&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Igmpv3Report_1&quot; pdu=&quot;igmp:Igmpv3Report&quot;&gt;&lt;numGrpRecords&gt;1&lt;/numGrpRecords&gt;&lt;grpRecords name=&quot;anon_9719&quot;&gt;&lt;GroupRecord name=&quot;GroupRecord_0&quot;&gt;&lt;recordType&gt;5&lt;/recordType&gt;&lt;numSource&gt;1&lt;/numSource&gt;&lt;mcastAddr&gt;224.4.5.3&lt;/mcastAddr&gt;&lt;addrList name=&quot;anon_9721&quot;&gt;&lt;Ipv4Addr name=&quot;Ipv4Addr_0&quot;&gt;&lt;value&gt;128.0.0.3&lt;/value&gt;&lt;/Ipv4Addr&gt;&lt;/addrList&gt;&lt;/GroupRecord&gt;&lt;/grpRecords&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+      <filter name="Dummy0" port="downstream" config=""/>
+      <filter name="Dummy1" port="downstream" config=""/>
+      <filter name="Dummy2" port="downstream" config=""/>
+      <filter name="Dummy3" port="downstream" config=""/>
+      <filter name="Dummy4" port="downstream" config=""/>
+      <filter name="IGMPall U1" port="downstream" stream="all" />
+    </filters>
+  </port>
+
+  <port name="upstream2">
+    <streams>
+      <stream name="IGMPJoin2" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC_DST1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC_SRC2@&lt;/srcMac&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;20&lt;/totalLength&gt;&lt;checksum&gt;50886&lt;/checksum&gt;&lt;sourceAddr&gt;128.0.0.6&lt;/sourceAddr&gt;&lt;destAddr&gt;224.0.0.22&lt;/destAddr&gt;&lt;tosDiffserv name=&quot;anon_9432&quot;&gt;&lt;tos name=&quot;anon_9433&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;options name=&quot;anon_9435&quot;&gt;&lt;IPv4HeaderOption name=&quot;IPv4HeaderOption_0&quot;&gt;&lt;rtrAlert name=&quot;anon_9437&quot;&gt;&lt;/rtrAlert&gt;&lt;/IPv4HeaderOption&gt;&lt;/options&gt;&lt;/pdu&gt;&lt;pdu name=&quot;Igmpv3Report_1&quot; pdu=&quot;igmp:Igmpv3Report&quot;&gt;&lt;numGrpRecords&gt;1&lt;/numGrpRecords&gt;&lt;grpRecords name=&quot;anon_9439&quot;&gt;&lt;GroupRecord name=&quot;GroupRecord_0&quot;&gt;&lt;recordType&gt;5&lt;/recordType&gt;&lt;numSource&gt;1&lt;/numSource&gt;&lt;mcastAddr&gt;224.4.5.2&lt;/mcastAddr&gt;&lt;addrList name=&quot;anon_9441&quot;&gt;&lt;Ipv4Addr name=&quot;Ipv4Addr_0&quot;&gt;&lt;value&gt;128.0.0.2&lt;/value&gt;&lt;/Ipv4Addr&gt;&lt;/addrList&gt;&lt;/GroupRecord&gt;&lt;/grpRecords&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+      <filter name="Dummy0" port="downstream" config=""/>
+      <filter name="Dummy1" port="downstream" config=""/>
+      <filter name="Dummy2" port="downstream" config=""/>
+      <filter name="Dummy3" port="downstream" config=""/>
+      <filter name="Dummy4" port="downstream" config=""/>
+      <filter name="IGMPall U2" port="downstream" stream="all" />
+    </filters>
+  </port>
+
+  
+</testcase>

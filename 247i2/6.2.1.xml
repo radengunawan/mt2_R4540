@@ -1,0 +1,16 @@
+<?xml version="1.0" ?> 
+<testcase>
+  <port name="downstream">
+    <streams>
+       <stream name="Frame Set A" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC2@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2266&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@SPbits1@&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2269&quot;&gt;&lt;tos name=&quot;anon_2270&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    <stream name="Frame Set B" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC3@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC4@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2266&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@SPbits2@&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2269&quot;&gt;&lt;tos name=&quot;anon_2270&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+      <filter name="Frame Set A" port="upstream1" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac filterMinValue=&quot;@MAC1@&quot; filterMaxValue=&quot;@MAC1@&quot;&gt;@MASK_MAC1@&lt;/dstMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri filterMinValue=&quot;@SPbits1@&quot; filterMaxValue=&quot;@SPbits1@&quot;&gt;111&lt;/pri&gt;&lt;id filterMinValue=&quot;@SVID1@&quot; filterMaxValue=&quot;@SVID1@&quot;&gt;4095&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <filter name="Frame Set B" port="upstream1" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac filterMinValue=&quot;@MAC3@&quot; filterMaxValue=&quot;@MAC3@&quot;&gt;@MASK_MAC3@&lt;/dstMac&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri filterMinValue=&quot;@SPbits2@&quot; filterMaxValue=&quot;@SPbits2@&quot;&gt;111&lt;/pri&gt;&lt;id filterMinValue=&quot;@SVID1@&quot; filterMaxValue=&quot;@SVID1@&quot;&gt;4095&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </filters>
+  </port>
+  
+  <port name="upstream1">
+  </port>
+</testcase>

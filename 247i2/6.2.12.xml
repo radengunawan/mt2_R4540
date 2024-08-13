@@ -1,0 +1,24 @@
+<?xml version="1.0" ?> 
+<testcase>
+  <port name="downstream">
+    <streams>
+      <stream name="Frame Set A" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC2@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2274&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@CPbits1@&lt;/pri&gt;&lt;id&gt;@CVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2275&quot;&gt;&lt;tos name=&quot;anon_2276&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;pdu name=&quot;CustomModifierField&quot; pdu=&quot;custom:Custom&quot;&gt;&lt;pattern&gt;00000000&lt;/pattern&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <stream name="Frame Set B" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC3@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC4@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2277&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@CPbits2@&lt;/pri&gt;&lt;id&gt;@CVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2278&quot;&gt;&lt;tos name=&quot;anon_2279&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;pdu name=&quot;CustomModifierField&quot; pdu=&quot;custom:Custom&quot;&gt;&lt;pattern&gt;00000000&lt;/pattern&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <stream name="Frame Set C" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC5@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC6@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2274&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@CPbits3@&lt;/pri&gt;&lt;id&gt;@CVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2275&quot;&gt;&lt;tos name=&quot;anon_2276&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;pdu name=&quot;CustomModifierField&quot; pdu=&quot;custom:Custom&quot;&gt;&lt;pattern&gt;00000000&lt;/pattern&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+      <stream name="Frame Set D" length="1280" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC7@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC8@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2277&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@CPbits4@&lt;/pri&gt;&lt;id&gt;@CVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;pdu name=&quot;ip_1&quot; pdu=&quot;ipv4:IPv4&quot;&gt;&lt;totalLength&gt;28&lt;/totalLength&gt;&lt;checksum&gt;14968&lt;/checksum&gt;&lt;tosDiffserv name=&quot;anon_2278&quot;&gt;&lt;tos name=&quot;anon_2279&quot;&gt;&lt;/tos&gt;&lt;/tosDiffserv&gt;&lt;/pdu&gt;&lt;pdu name=&quot;proto1&quot; pdu=&quot;udp:Udp&quot;&gt;&lt;length&gt;8&lt;/length&gt;&lt;/pdu&gt;&lt;pdu name=&quot;CustomModifierField&quot; pdu=&quot;custom:Custom&quot;&gt;&lt;pattern&gt;0000&lt;/pattern&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+        <filter name="Frame Set A" port="upstream1"  stream="Frame Set A" />
+        <filter name="Frame Set B" port="upstream1"  stream="Frame Set B" />
+        <filter name="Frame Set C" port="upstream1"  stream="Frame Set C" />
+        <filter name="Frame Set D" port="upstream1"  stream="Frame Set D" />
+    </filters>
+		<modifiers>
+				<modifier stream="all" offset="0" mask="FFFF" method="DEC" repeat="1" />
+		</modifiers>
+  </port>
+  
+  <port name="upstream1">
+  </port>
+  
+</testcase>

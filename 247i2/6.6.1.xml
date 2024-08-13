@@ -1,0 +1,27 @@
+<?xml version="1.0" ?> 
+<testcase>
+  <port name="downstream">
+    <streams>
+      <stream name="Frame Set B" length="2000" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC2@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC1@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2266&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@SPbits1@&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+		 <filter name="Frame Set B" port="upstream1" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri filterMinValue=&quot;@SPbits1@&quot; filterMaxValue=&quot;@SPbits1@&quot;&gt;111&lt;/pri&gt;&lt;id filterMinValue=&quot;@SVID1@&quot; filterMaxValue=&quot;@SVID1@&quot;&gt;4095&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" /> 
+    </filters>
+  </port>
+  
+  <port name="upstream1">
+    <streams>
+      <stream name="Frame Set A" length="2000" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;dstMac&gt;@MAC1@&lt;/dstMac&gt;&lt;srcMac&gt;@MAC2@&lt;/srcMac&gt;&lt;vlans name=&quot;anon_2266&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri&gt;@SPbits1@&lt;/pri&gt;&lt;id&gt;@SVID1@&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" />
+    </streams>
+    <filters>
+      <filter name="Frame Set A" port="downstream" config="&lt;frame&gt;&lt;config&gt;&lt;pdus&gt;&lt;pdu name=&quot;eth1&quot; pdu=&quot;ethernet:EthernetII&quot;&gt;&lt;vlans name=&quot;anon_2294&quot;&gt;&lt;Vlan name=&quot;Vlan&quot;&gt;&lt;pri filterMinValue=&quot;@SPbits1@&quot; filterMaxValue=&quot;@SPbits1@&quot;&gt;111&lt;/pri&gt;&lt;id filterMinValue=&quot;@SVID1@&quot; filterMaxValue=&quot;@SVID1@&quot;&gt;4095&lt;/id&gt;&lt;/Vlan&gt;&lt;/vlans&gt;&lt;/pdu&gt;&lt;/pdus&gt;&lt;/config&gt;&lt;/frame&gt;" /> 
+    </filters>
+  </port>
+  
+  <port name="upstream2">
+    <streams>
+    </streams>
+    <filters>
+    </filters>
+  </port>
+</testcase>

@@ -1,0 +1,5 @@
+<!DOCTYPE MT2_eOLT_GPON_TEST_SUITE>
+<TestSuite>
+ <script filename="./scripts/247i4/TC_6.13.1.js" comments="" status="Not run"/>
+ <script filename="./scripts/247i4/TC_6.13.2.js" comments="" status="Not run"/>
+</TestSuite>
